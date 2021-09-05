@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WindowDestroyer.java&apos; to &apos;CH15_MoreSwing/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Report#CH13&apos;&#x0D;&#x0A;- Destination element: &apos;CH15_MoreSwing/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;WindowDestroyer.java&apos;" description="Copy compilation unit" destination="=CH15_MoreSwing/src&lt;" element1="/src&lt;{WindowDestroyer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1607583987994" units="1" version="1.0"/>
+</session>
