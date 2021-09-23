@@ -110,7 +110,7 @@ public class TodoUtil {
 			}
 			w.close();
 			
-			System.out.println("[저장이 완료되었습니다.}");
+			System.out.println("[저장이 완료되었습니다.]");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

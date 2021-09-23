@@ -1,0 +1,10 @@
+study##I will spend at least 5 hours for studying today##2021-09-23 11:48:30
+running##I will run along the Handong Road today##2021-09-23 11:51:52
+Relaxing##I will take relaxing time today##2021-09-23 11:52:24
+Teatime##I will take a tea time with my friend##2021-09-23 11:52:58
+Lunchtime##I will have lunch with my Team##2021-09-23 12:01:16
+Homework##I need to check my homework's due date##2021-09-23 12:01:51
+Vaccinate##I will vaccinate today##2021-09-23 12:02:31
+Workout##I will do workout with my partner##2021-09-23 12:03:36
+Practice##I will practice coding test##2021-09-23 12:04:10
+Prepare##I will prepare next lecture##2021-09-23 12:04:46

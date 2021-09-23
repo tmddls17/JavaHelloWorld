@@ -12,7 +12,8 @@ public class Menu {
         System.out.println("5. ls_name_asc - 제목순 정렬");
         System.out.println("6. ls_name_desc - 제목역순 정렬");
         System.out.println("7. ls_date - 날짜순 정렬");
-        System.out.println("8. exit - 종료");
+        System.out.println("8. help - 도움말 출력");
+        System.out.println("9. exit - 종료");
     }
     
     public static void prompt() {
