@@ -1,10 +1,10 @@
-study##I will spend at least 5 hours for studying today##2021-09-23 11:48:30
-running##I will run along the Handong Road today##2021-09-23 11:51:52
-Relaxing##I will take relaxing time today##2021-09-23 11:52:24
-Teatime##I will take a tea time with my friend##2021-09-23 11:52:58
-Lunchtime##I will have lunch with my Team##2021-09-23 12:01:16
-Homework##I need to check my homework's due date##2021-09-23 12:01:51
-Vaccinate##I will vaccinate today##2021-09-23 12:02:31
-Workout##I will do workout with my partner##2021-09-23 12:03:36
-Practice##I will practice coding test##2021-09-23 12:04:10
-Prepare##I will prepare next lecture##2021-09-23 12:04:46
+신앙##Q.T##누가복음 4장 ~ 5장, 시편 112편 읽고 묵상하기##2021/09/26##2021/09/26 15:54:46
+공부##웹서개##CSS, XTML 문법 공부##2021/10/04##2021/09/26 15:53:51
+동아리##물품구비##훈련장 청소에 필요한 물품 구비##2021/10/06##2021/09/26 15:52:35
+동아리##조정훈련##암스트롱 이번학기 첫 조정훈련##2021/10/03##2021/09/26 15:51:59
+신앙##하심첫모임##하심공동체의 첫번째 줌모임##2021/09/27##2021/09/26 15:51:32
+공부##컴퓨터네트워크##컴퓨터네트워크 퀴즈대비 공부##2021/10/01##2021/09/26 15:50:43
+운동##발냄시아활동##평봉에서 2시간 축구##2021/10/06##2021/09/26 15:49:49
+운동##등운동##풀 업, 렛 풀 다운, 시티드 로우, 데드리프트##2021/09/26##2021/09/26 15:44:26
+과제##컴퓨터비전##제공된 사진의 밝기 변화##2021/09/30##2021/09/26 15:27:34
+과제##실전프로젝트1##프로젝트 업데이트##2021/09/26##2021/09/26 15:26:53

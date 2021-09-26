@@ -7,20 +7,24 @@ public class TodoItem {
     private String title;
     private String desc;
     private Date current_date;
-    SimpleDateFormat date;
+    private SimpleDateFormat date;
+    private String category;
+    private String due_date;
 
-    public TodoItem(String title, String desc){
+    public TodoItem(String title, String desc, String category, String due_date){
         this.title=title;
         this.desc=desc;
         current_date = new Date();
-        this.date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        this.date = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        this.category = category;
+        this.due_date = due_date;
     }
     
     public TodoItem() {
     	this.title = "";
     	this.desc = "";
     	this.current_date = new Date();
-    	this.date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    	this.date = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
     }
     public String getTitle() {
         return title;
@@ -39,7 +43,7 @@ public class TodoItem {
     }
 
     public String getCurrent_date() {
-    	this.date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    	this.date = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         return date.format(current_date);
     }
 
@@ -47,12 +51,28 @@ public class TodoItem {
         this.current_date = current_date;
     }
     
+    public String getCategory () {
+    	return this.category;
+    }
+    
+    public void setCategory (String category) {
+    	this.category = category;
+    }
+    
+    public String getDueDate() {
+    	return this.due_date;
+    }
+    
+    public void setDueDate(String due_date) {
+    	this.due_date = due_date;
+    }
+    
     public String toSaveString() {
-    	return title + "##" + desc + "##" + date.format(current_date) + "\n";
+    	return category + "##" + title + "##" + desc + "##" + due_date + "##" +date.format(current_date) + "\n";
     }
     
     @Override
     public String toString() {
-    	return "[" + title + "]" + desc + " - " + date.format(current_date); 
+    	return "[" + category + "] " + title + " - "+ desc + " - " + due_date + " - "+ date.format(current_date); 
     }
 }

@@ -35,6 +35,10 @@ public class TodoList {
 		Collections.sort(list, new TodoSortByName());
 
 	}
+	
+	public void sortByDateReverse() {
+		Collections.sort(list, new TodoSortByDate().reversed());
+	}
 
 	public void listAll() {
 		System.out.println("\n"

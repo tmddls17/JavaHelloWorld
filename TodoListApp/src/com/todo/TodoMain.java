@@ -58,13 +58,31 @@ public class TodoMain {
 				System.out.println("날짜순으로 정렬하였습니다.");
 				isList = true;
 				break;
-
-			case "exit":
-				quit = true;
+				
+			case "ls_date_desc":
+				l.sortByDateReverse();
+				System.out.println("날짜역순으로 정렬하였습니다.");
+				isList = true;
+				break;
+				
+			case "ls_cate":
+				TodoUtil.lsCate(l);
+				break;
+				
+			case "find":
+				TodoUtil.findItem(l);
+				break;
+				
+			case "find_cate":
+				TodoUtil.findCate(l);
 				break;
 				
 			case "help":
 				TodoUtil.showHelp(l);
+				break;
+				
+			case "exit":
+				quit = true;
 				break;
 
 			default:
